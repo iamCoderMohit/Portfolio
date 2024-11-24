@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color: whitesmoke;
+    box-shadow: 10px 3px 15px rgba(0, 0, 0, 0.3);
+    /* position: sticky; */
+}
+
+.navItems{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+a:active{
+    color: blue;
+    text-decoration: underline
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.line{
+    margin-top: 20px;
+    height: 600px;
+    width: 5px;
+    background-color: black;
+    margin-left: 40px;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.round{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(26, 214, 48);
+    z-index: 10;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.round1{
+    top: 30%;
+}
+.round2{
+    top: 55%;
+}
+.round3{
+    top: 80%;
+}
+
+.text {
+    position: absolute;
+    left: 680px; /* Position text 10% to the right of the circle */
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: black;
+    width: 1300px;
+}
+
+.text1{
+    top: 8%;
+}
+.text2{
+    top: 28%;
+}
+.text3{
+    top: 53%;
+}
+.text4{
+    top: 78%;
+}
+
+.desc{
+    font-weight: normal;
+}
+
+.grow{
+    background-color: rgb(45, 154, 37);
+    /* z-index: 10; */
+    height: 0;
+    width: 5px;
+    position: absolute; 
+  /* top: 0; */
+  /* left: 0; */
+ top: 0;
+
+ transition: height 1s ease; 
+}
+
+.grow.expand{
+    height: 100%;
+}
+

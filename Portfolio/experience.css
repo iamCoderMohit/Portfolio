@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color: whitesmoke;
+    box-shadow: 10px 3px 15px rgba(0, 0, 0, 0.3);
+    /* position: sticky; */
+}
+
+.navItems{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+a:active{
+    color: blue;
+    text-decoration: underline
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.line{
+    width: 1px;
+    height: 75vh;
+    background-color: rgb(0, 0, 0);
+    margin-left: 40px;
+    margin-top: 20px;
+    position: relative;
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: center; */
+}
+
+.round{
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(26, 214, 48);
+    z-index: 10;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.round1{
+    top: 40%;
+}
+.round2{
+    top: 70%;
+}
+
+.main{
+    display: flex;
+}
+
+.content{
+    margin-left: 30px;
+}
+
+.forAll{
+    height: 140px;
+    width: 85vw;
+    background-color: rgb(218, 204, 204);
+    transition: transform 0.3s ease;
+    box-shadow: 4px 3px 9px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.forAll:hover{
+    transform: scale(1.02);
+}
+
+.first{
+    margin-top: 69px;
+}
+.second{
+    margin-top: 35px;
+}
+.third{
+    margin-top: 35px;
+}
+
+.duration{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+   
+}
+
+.year{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.desc{
+    margin-left: 15px;
+    font-weight: normal;
+}
