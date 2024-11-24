@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #f0f0f0; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color: whitesmoke;
+    box-shadow: 10px 3px 15px rgba(0, 0, 0, 0.3);
+    /* position: sticky; */
+}
+
+.navItems{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+a:active{
+    color: blue;
+    text-decoration: underline
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.first, .second{
+    margin-top: 20px;
+    display: flex;
+    /* gap: 10px; */
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.one, .two, .three, .four{
+    height: 290px;
+    width: 290px;
+    background-color: rgb(164, 161, 168);
+    border-radius: 20px;
+    cursor: pointer;    
+    /* display: flex; */
+    /* justify-content: center; */
+    transition: transform 0.3s ease;
+}
+
+
+.one:hover{
+    transform: scale(1.05);
+}
+.two:hover{
+    transform: scale(1.05);
+}
+.three:hover{
+    transform: scale(1.05);
+}
+.four:hover{
+    transform: scale(1.05);
+}
+
+
+
+.calc, .fund, .gaming, .eCommerce, .food, .socialMedia, .workout, .chat{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+img{
+    height: 35px;
+    width: 35px;
+}
+
+.desc{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: start;
+    font-weight: normal;
+    max-height: 120px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.image{
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+}
